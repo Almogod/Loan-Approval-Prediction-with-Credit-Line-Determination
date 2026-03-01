@@ -1,123 +1,104 @@
-🏦 Loan Approval Prediction with Credit Line Determination
+# 🏦 Loan Approval Prediction with Credit Line Determination
 
-An end-to-end Machine Learning project designed to predict loan approval and recommend optimal credit limits for applicants based on financial, demographic, and risk-related features.
+An end-to-end Machine Learning project to **predict loan approval** and **determine optimal credit limits** for applicants using financial, demographic, and risk-related features.
 
-This project aims to simulate a real-world banking decision system, helping financial institutions automate credit risk assessment and lending decisions.
+This project simulates a **real-world banking decision system**, helping institutions automate credit risk assessment and lending decisions.
 
-🚀 Project Overview
+---
 
-Banks face challenges in evaluating loan applications efficiently while minimizing risk. This project leverages machine learning models to:
+## 🚀 Project Overview
 
-Predict whether a loan application should be approved or rejected
+Financial institutions must evaluate loan applications efficiently while minimizing risk. This project leverages machine learning to:
 
-Estimate the maximum credit line / loan amount a borrower can safely receive
+- Predict whether a loan should be **approved or rejected**
+- Estimate the **maximum credit line** for an applicant
+- Provide a scalable foundation for **enterprise-grade credit systems**
 
-Provide a scalable foundation for enterprise-level credit decision systems
+---
 
-🎯 Objectives
+## 🎯 Objectives
 
-Build a robust classification model for loan approval prediction
+- Build a **classification model** for loan approval prediction  
+- Develop a **regression model** for credit limit estimation  
+- Perform **feature engineering** for improved accuracy  
+- Enable **data-driven lending decisions**  
+- Ensure **scalability for real-world deployment**
 
-Develop a regression model for credit limit estimation
+---
 
-Perform feature engineering to improve model accuracy
+## 🧠 Problem Statement
 
-Enable data-driven decision making for lending institutions
+Given applicant information such as income, credit history, and assets:
 
-Ensure scalability and extensibility for real-world deployment
+- **Classification Task** → Will the loan be approved?  
+- **Regression Task** → What is the maximum safe loan amount?
 
-🧠 Problem Statement
+---
 
-Given applicant details such as income, credit history, employment status, and assets:
+## 📊 Dataset
 
-Classification Task → Will the loan be approved?
+The dataset includes features commonly used in credit risk analysis:
 
-Regression Task → What is the maximum loan amount that can be safely issued?
+- **Demographics:** Gender, Marital Status, Dependents  
+- **Financial:** Applicant Income, Co-applicant Income, Loan Amount  
+- **Creditworthiness:** Credit History  
+- **Loan Details:** Loan Term, Property Area  
 
-📊 Dataset
+---
 
-The dataset includes features typically used in loan risk analysis:
+## ⚙️ Tech Stack
 
-Demographics: Gender, Marital Status, Dependents
+**Language:** Python  
 
-Financial: Income, Co-applicant Income, Loan Amount
+**Libraries:**
+- Pandas, NumPy (data processing)  
+- Scikit-learn (machine learning)  
+- XGBoost / Random Forest (advanced models)  
+- Matplotlib, Seaborn (visualization)  
 
-Creditworthiness: Credit History
+**Environment:** Jupyter Notebook / Python Scripts  
 
-Loan Details: Loan Term, Property Area
+---
 
-Such datasets are commonly used in ML-based credit scoring systems .
+## 🔄 Project Workflow
 
-⚙️ Tech Stack
+### 1. Data Preprocessing
+- Handling missing values  
+- Encoding categorical variables  
+- Feature scaling  
 
-Programming Language: Python
+### 2. Exploratory Data Analysis (EDA)
+- Distribution analysis  
+- Correlation heatmaps  
+- Outlier detection  
 
-Libraries:
+### 3. Feature Engineering
+- Derived financial indicators  
+- Risk-based transformations  
 
-Pandas, NumPy (data processing)
+### 4. Model Development
 
-Scikit-learn (ML models)
+**Classification Models:**
+- Logistic Regression  
+- Random Forest  
+- XGBoost  
 
-XGBoost / Random Forest (advanced modeling)
+**Regression Models (Credit Limit):**
+- Linear Regression  
+- Gradient Boosting Regressor  
 
-Matplotlib / Seaborn (visualization)
+### 5. Model Evaluation
 
-Environment: Jupyter Notebook / Python Scripts
+- Accuracy, Precision, Recall, F1-score  
+- ROC-AUC Score  
+- Mean Absolute Error (Regression)
 
-🔄 Project Workflow
-1. Data Preprocessing
+---
 
-Handling missing values
+## 📈 Key Features
 
-Encoding categorical variables
-
-Feature scaling and normalization
-
-2. Exploratory Data Analysis (EDA)
-
-Distribution analysis
-
-Correlation analysis
-
-Outlier detection
-
-3. Feature Engineering
-
-Derived financial indicators
-
-Risk-based feature transformations
-
-4. Model Development
-Classification Models
-
-Logistic Regression
-
-Random Forest
-
-XGBoost
-
-Regression Models (Credit Limit)
-
-Linear Regression
-
-Gradient Boosting Regressor
-
-5. Model Evaluation
-
-Accuracy, Precision, Recall, F1-score
-
-ROC-AUC Curve
-
-Mean Absolute Error (for credit limit)
-
-📈 Key Features
-
-✔ Dual-model system (Approval + Credit Limit)
-
-✔ Scalable architecture for enterprise use
-
-✔ Feature importance analysis for explainability
-
-✔ Ready for integration into fintech applications
-
-✔ Extendable to real-time decision systems
+- ✔ Dual-model system (Approval + Credit Limit)  
+- ✔ Scalable and modular architecture  
+- ✔ Feature importance analysis  
+- ✔ Extendable to real-time systems  
+- ✔ Suitable for fintech and banking applications  
